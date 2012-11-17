@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url('fonts/Ubuntu-R.ttf');
+}
+body{
+  background: url("images/bg.gif") center top repeat;
+  color: white;
+  font-family: Ubuntu;
+  margin: auto;
+  width: 850px;
+}
+meter{
+  width: 150px;
+  height: 15px;
+}
+#top{
+  text-align:center;
+  padding-bottom: 10px;
+}
+#hdd1{
+  background-color: #9ECFF0;
+  color: black;
+}
+#hdd2{
+  background-color: #9ECFF0;
+  color: black;
+}
+#torrent{
+  background-color: #4A9E1B;
+}
+#torrent > a{
+  color: black;
+}
+#print{
+  background-color: #333333;
+}
+#print > a{
+  color: white;
+}
+#box{
+  background-color: #D6142F;
+}
+#box > a{
+  color: white;
+}
+.icone{
+  float:left;
+}
+#modules{
+  text-align:center;
+}
+.module{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+}
+
+
