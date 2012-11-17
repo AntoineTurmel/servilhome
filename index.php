@@ -57,11 +57,11 @@ $uptime = $uptime[0];
           $class = min((int)log($bytes , $base) , count($si_prefix) - 1);
           echo 'Disque dur ' . sprintf('%1.2f' , $bytestotal / pow($base,$class)) . ' ' . $si_prefix[$class] . ' :<br/>';
           echo sprintf('%1.2f' , $bytes / pow($base,$class)) . ' ' . $si_prefix[$class] . ' restant<br/>';
-          echo '<meter value="' . $bytesused . '" max="' . $bytestotal . '"></progress>';
+          echo '<meter value="' . $bytesused . '" max="' . $bytestotal . '"></meter>';
       ?>
       </div>
       <div class="module" id="torrent">
-        <a href="http://<? echo $_SERVER['HTTP_HOST']; ?>:8080/gui"><div class="icone"><img src="/images/torrent.png" alt="bt icon"/></div>
+        <a href="http://<? echo $_SERVER['HTTP_HOST']; ?>:8080/gui"><div class="icone"><img src="images/torrent.png" alt="bt icon"/></div>
         Torrent</a>
       </div>
     <!-- <div class="module" id="print">
